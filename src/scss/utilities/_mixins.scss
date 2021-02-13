@@ -1,0 +1,87 @@
+  
+// ==========================================================================
+// Mixins
+// ==========================================================================
+
+// Center Containers
+@mixin center($w) {
+    width: $w;
+    max-width: $max-width;
+    margin: 2em auto 0;
+  }
+  
+  // Rounded Elements
+  @mixin roundy($dim) {
+    width: $dim;
+    height: $dim;
+    border-radius: 50%;
+  }
+  
+  // text
+  @mixin text($size: $base__font-size, $l-height:null, $weight:null, $color: null, $family: null) {
+    font-size: $size;
+    line-height: $l-height;
+    font-weight: $weight;
+    color: $color;
+    font-family: $family;
+  }
+  
+  // Background Colors
+  @mixin bg-colors($map) {
+    @each $theme, $color in $map {
+      &--#{$theme} {
+        background-color: $color;
+      }
+    }
+  }
+  
+  // Create a flex
+  @mixin flexy($disp: flex, $dir: null, $wrap: null, $just: null, $al: null) {
+    display: $disp;
+    flex-direction: $dir;
+    flex-wrap: $wrap;
+    justify-content: $just;
+    align-items: $al;
+  }
+  
+  // BEM selectors
+  @mixin e($element) {
+    &__#{$element} {
+      @content;
+    }
+  }
+  // BEM Modifier
+  @mixin m($modifire) {
+    &--#{$modifire} {
+      @content;
+    }
+  }
+  
+  // Grid Columns
+  @mixin g-columns {
+    @for $i from 2 through $g-col-count {
+      $context: g-context($g-col-width, $g-col-count, $g-gutter-width) !global;
+      $target: ($g-col-width * $i) + ($g-gutter-width * ($i - 1));
+      // Generate coulmn modifier classes
+      &--#{$i} {
+        width: percentage($target / $context);
+      }
+    }
+  }
+  
+  
+  // Media Queries
+  @mixin mq($break) {
+    $value: map-get($breakpoints, $break);
+    $sm: map-get($breakpoints, 'sm');
+  
+    @if $value < $sm {
+      @media (max-width: $value) {
+        @content;
+      }
+    } @else {
+      @media (min-width: $value) {
+        @content;
+      }
+    }
+  }

@@ -1,0 +1,95 @@
+// ==========================================================================
+// Variables
+// ==========================================================================
+
+// Font Stacks
+$font-url--google        : 'http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900';
+$font-family-primary    : 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family--secondary : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+// Font Weights
+$font-weight--thin       : 100;
+$font-weight--light      : 300;
+$font-weight--medium     : 400;
+$font-weight--bold       : 700;
+$font-weight--ultra-bold : 900;
+
+// Descriptive Base Colors
+$white : #fff;
+$black : #0b0b0b;
+$grey  : #797e83;
+
+$viking         : #58e1c1;
+$malibu         : #54defc;
+$emerald        : #63CC82;
+$sunglo         : #e4757a;
+$coral          : #fd7856;
+$purple-majesty : #927BC1;
+
+// color Usage
+$color-primary    : $viking ;
+$color-secondary  : $malibu;
+$color-shadow      : rgba($black, .2);
+
+// Color Palette Modifiers
+$palettes: (
+  grey: (
+    xx-light : lighten($grey, 43%),
+    x-light  : lighten($grey, 35%),
+    light    : lighten($grey, 12%),
+    base     : $grey,
+    dark     : darken($grey, 8%),
+    x-dark   : darken($grey, 16%)
+  ),
+	black: (
+		light    : lighten($black, 10%),
+		base     : $black,
+		dark     : darken($black, 10%)
+	)
+);
+
+
+// UI Colors
+$ui-colors: (
+  default : $viking,
+  success : $emerald,
+  error   : $sunglo,
+  warning : $coral,
+  info    : $purple-majesty,
+);
+
+// Grid colors
+$grid-colors: (
+  12  : lighten($viking, 15%),
+  8   : lighten($coral, 15%),
+  7   : lighten($sunglo, 7%),
+  6   : darken($malibu, 25%),
+  5   : lighten($emerald, 7%),
+  4   : lighten($malibu, 15%),
+  3   : lighten($purple-majesty, 10%),
+);
+
+// Text
+$base__font-size  : 16px;
+$base__line       : 24px;
+$letter-space     : 1px;
+
+// Layout
+$max-width: 1100px;
+
+// Grid
+$g-col-width    : 50px;
+$g-gutter-width : 10px;
+$g-col-count    : 12;
+$g-cont-max-w   : 1000px;
+
+// Transitions
+$trns-duration   : .3s;
+
+// Breakpoints
+$breakpoints: (
+  'xm': 480px,
+  'sm': 576px,
+ 'med': 768px,
+  'lg': 992px,
+);
