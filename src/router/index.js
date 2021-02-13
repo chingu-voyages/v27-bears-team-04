@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Homepage from '../views/HomePage/HomePage.vue'
-
+import NotFound from "../views/ErrorPage/NotFound";
 
 const routes = [
   {
@@ -49,12 +49,9 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/LoginPage/LoginPage.vue')
   },
   {
-    path: '/error',
-    name: 'Error',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/ErrorPage/ErrorPage.vue')
+    //This route must be at the end!
+    path: '/:notFound(.*)',
+    component: NotFound
   },
 
 ]
