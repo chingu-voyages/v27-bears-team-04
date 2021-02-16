@@ -3,9 +3,49 @@
 // ==========================================================================
 
 // Font Stacks
-$font-url--google        : 'http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900';
-$font-family-primary    : 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$font-family--secondary : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+
+$font-url--title         :  'euphorigenic';
+$font-family-primary     : 'montserrat-regular';
+$font-family--secondary  : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family--bold       : 'montserrat-bold';
+$font-family--light      : 'montserrat-light';
+
+
+@font-face{
+  font-family: euphorigenic;
+  font-style:normal;
+  font-weight:400;
+  src:local('Euphorigenic'),
+  local('Euphorigenic-Regular'),
+  url(http://allfont.net/cache/fonts/euphorigenic_ce57d3e1b3b16f52112a8b54d6357087.woff) format('woff'),url(http://allfont.net/cache/fonts/euphorigenic_ce57d3e1b3b16f52112a8b54d6357087.ttf) format('truetype')}
+
+  @font-face{
+    font-family: montserrat-regular;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    font-weight:400;
+    src: url('../../assets/fonts/Montserrat-Regular.ttf');
+  }
+
+  @font-face{
+    font-family: montserrat-light;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 300;
+    src: url('../../assets/fonts/Montserrat-Light.ttf');
+  }
+
+  @font-face{
+    font-family: montserrat-bold;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 800;
+    src: url('../../assets/fonts/Montserrat-Bold.ttf');
+  }
 
 // Font Weights
 $font-weight--thin       : 100;
@@ -17,18 +57,14 @@ $font-weight--ultra-bold : 900;
 // Descriptive Base Colors
 $white : #fff;
 $black : #0b0b0b;
-$grey  : #797e83;
-
-$viking         : #58e1c1;
-$malibu         : #54defc;
-$emerald        : #63CC82;
-$sunglo         : #e4757a;
-$coral          : #fd7856;
-$purple-majesty : #927BC1;
+$grey  : rgb(134, 133, 133);
+$dark-grey: #151515;
+$light-grey: #F5F5F5;
+$contrast-color: #5cf0b8;
 
 // color Usage
-$color-primary    : $viking ;
-$color-secondary  : $malibu;
+$color-primary    : $grey ;
+$color-secondary  : $dark-grey;
 $color-shadow      : rgba($black, .2);
 
 // Color Palette Modifiers
@@ -51,23 +87,14 @@ $palettes: (
 
 // UI Colors
 $ui-colors: (
-  default : $viking,
-  success : $emerald,
-  error   : $sunglo,
-  warning : $coral,
-  info    : $purple-majesty,
+  default : $grey,
+  success : $light-grey,
+  error   : red,
+  warning :  $contrast-color,
+  info    : $contrast-color,
 );
 
-// Grid colors
-$grid-colors: (
-  12  : lighten($viking, 15%),
-  8   : lighten($coral, 15%),
-  7   : lighten($sunglo, 7%),
-  6   : darken($malibu, 25%),
-  5   : lighten($emerald, 7%),
-  4   : lighten($malibu, 15%),
-  3   : lighten($purple-majesty, 10%),
-);
+
 
 // Text
 $base__font-size  : 16px;

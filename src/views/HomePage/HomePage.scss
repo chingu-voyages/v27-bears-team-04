@@ -1,9 +1,86 @@
 
 @import '../../scss/utilities/index';
 
+.c-main{
+    display: flex;
+    position: relative;
+}
+.c-homepage{
 
-.homepage{
-    font-size: 40px;
-    color: red;
-    font-family: $font-url--google;
+   transform: translateY(10%);
+   transform: translateX(25%);
+
+    &__title{
+        font-family: $font-url--title;
+        font-size: 10rem;
+        color: $dark-grey;
+        margin-bottom: 0.3rem;
+   
+    }
+
+    &__subtitle{
+        font-family: $font-family--light;
+        font-size: 1rem;
+        color: $grey;
+        font-weight: 500;
+        width: 19rem;
+    }
+    &__img-container{
+        position: absolute;
+        right: 5rem;
+        top: 10rem;
+}
+}
+a {
+    text-decoration: none;
+}
+
+.c-menu {
+    position: absolute;
+    right: 5rem;
+
+    &__item{
+        padding-right: 1rem;
+        color: $grey;
+        font-family: $font-family-primary;
+
+        &:hover, &:active &:visited {
+            color: $contrast-color;
+        }
+    }
+}
+
+.c-buttons-container{
+    display: flex;
+    flex-direction: column;
+
+    &__login{
+    width: 18rem;
+    border-radius: 2.4rem;
+    padding: 0.7rem;
+    border: 1px solid $grey;
+    color: $dark-grey;
+    text-align: center;
+    font-family: $font-family--bold;
+    margin-bottom: 0.5rem;
+
+    &:hover, &:active &:visited {
+        background-color: $contrast-color;
+    }
+    }
+    &__signin{
+    width: 18rem;
+    border-radius: 2.4rem;
+    padding: 0.7rem;
+    border: 1px solid $grey;
+    color: $dark-grey;
+    text-align: center;
+    font-family: $font-family--bold;
+
+    &:hover, &:active &:visited {
+        background-color: $contrast-color;
+    }
+    }
+
+  
 }
