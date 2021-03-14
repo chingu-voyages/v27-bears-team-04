@@ -21,6 +21,11 @@ export default {
 
 html, body, #app {
   height: 100%;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
 }
 
 body {
