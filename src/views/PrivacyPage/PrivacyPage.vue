@@ -29,12 +29,9 @@
     <p> Some of our advertising partners may use cookies and web beacons on our site. Our advertising partners include
       ……. <br/></p>
     <ul>
-      <li>Google</li>
       <li>Commission Junction</li>
-      <li>Amazon</li>
       <li>Adbrite</li>
       <li>Clickbank</li>
-      <li>Yahoo! Publisher Network</li>
       <li>Chitika</li>
       <li>Kontera</li>
     </ul>
