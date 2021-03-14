@@ -1,0 +1,90 @@
+// ==========================================================================
+// Variables
+// ==========================================================================
+
+// Font Stacks
+$font-url--title         : 'euphorigenic';
+$font-family-primary     : 'montserrat-regular';
+$font-family--secondary  : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family--bold       : 'montserrat-bold';
+$font-family--light      : 'montserrat-light';
+
+@font-face{
+  font-family: euphorigenic;
+  font-style:normal;
+  font-weight:400;
+  src:local('Euphorigenic'),
+  local('Euphorigenic-Regular'),
+  url(http://allfont.net/cache/fonts/euphorigenic_ce57d3e1b3b16f52112a8b54d6357087.woff) format('woff'),url(http://allfont.net/cache/fonts/euphorigenic_ce57d3e1b3b16f52112a8b54d6357087.ttf) format('truetype')}
+
+
+// Font Weights
+$font-weight--light      : 300;
+$font-weight--medium     : 400;
+$font-weight--bold       : 700;
+
+// Descriptive Base Colors
+$white     : #fff;
+$black     : #0b0b0b;
+$gold      : #C6A15B;
+$grey      : #8B8B8B;
+$dark-grey : #151515;
+$light-grey: #F5F5F5;
+$cardinal  : #C4183C;
+$selective-yellow: #ffb400;
+
+// color Usage
+$color-primary    : $gold ;
+$color-secondary  : $grey ;
+$color-shadow      : rgba($black, .2);
+
+// Color Palette Modifiers
+$palettes: (
+  gold: (
+    xx-light : lighten($gold, 43%),
+    x-light  : lighten($gold, 35%),
+    light    : lighten($gold, 10%),
+    base     : $gold,
+    dark     : darken($gold, 8%),
+    x-dark   : darken($gold, 16%)
+  ),
+	black: (
+		light    : lighten($black, 10%),
+		base     : $black,
+		dark     : darken($black, 10%)
+	)
+);
+
+// UI Colors
+$ui-colors: (
+  default : $grey,
+  success : $light-grey,
+  error   : $cardinal,
+  warning :  $selective-yellow,
+  info    : $selective-yellow,
+);
+
+// Text
+$base__font-size  : 16px;
+$base__line       : 24px;
+$letter-space     : 1px;
+
+// Layout
+$max-width: 1100px;
+
+// Grid
+$g-col-width    : 50px;
+$g-gutter-width : 10px;
+$g-col-count    : 12;
+$g-cont-max-w   : 1000px;
+
+// Transitions
+$trns-duration   : .3s;
+
+// Breakpoints
+$breakpoints: (
+  'xm': 480px,
+  'sm': 576px,
+ 'med': 768px,
+  'lg': 992px,
+);

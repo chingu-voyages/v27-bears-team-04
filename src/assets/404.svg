@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="142.904" height="74.663" viewBox="0 0 142.904 74.663">
+    <defs>
+        <style>
+            .a,.b,.d{fill:#707070}.b,.c,.d{stroke:#C6A15B}.c,.f{fill:none}.c,.d{stroke-linecap:square;stroke-width:1.5px}.e{stroke:none}
+        </style>
+    </defs>
+    <g transform="translate(-26 -170)">
+        <circle class="a" cx="1.5" cy="1.5" r="1.5" transform="translate(112 189)"/>
+        <circle class="a" cx="1.5" cy="1.5" r="1.5" transform="rotate(90 -66.5 148.5)"/>
+        <circle class="a" cx="1.5" cy="1.5" r="1.5" transform="translate(113 198)"/>
+        <circle class="a" cx="1.5" cy="1.5" r="1.5" transform="rotate(90 -62.5 143.5)"/>
+        <circle class="a" cx="1.5" cy="1.5" r="1.5" transform="translate(113 206)"/>
+        <circle class="a" cx="1.5" cy="1.5" r="1.5" transform="rotate(90 -58.5 139.5)"/>
+        <circle class="a" cx="1.5" cy="1.5" r="1.5" transform="translate(112 215)"/>
+        <circle class="a" cx="1.5" cy="1.5" r="1.5" transform="rotate(90 -53.5 135.5)"/>
+        <circle class="a" cx="1.5" cy="1.5" r="1.5" transform="translate(110 224)"/>
+        <circle class="a" cx="1.5" cy="1.5" r="1.5" transform="rotate(90 -48 132)"/>
+        <circle class="a" cx="1.5" cy="1.5" r="1.5" transform="translate(110 180)"/>
+        <circle class="a" cx="1.5" cy="1.5" r="1.5" transform="rotate(90 -70 154)"/>
+        <circle class="a" cx="1.5" cy="1.5" r="1.5" transform="translate(104 173)"/>
+        <circle class="a" cx="1.5" cy="1.5" r="1.5" transform="rotate(90 -71.5 160.5)"/>
+        <circle class="a" cx="1.5" cy="1.5" r="1.5" transform="translate(95 170)"/>
+        <circle class="a" cx="1.5" cy="1.5" r="1.5" transform="translate(95 235)"/>
+        <circle class="a" cx="1.5" cy="1.5" r="1.5" transform="translate(104 232)"/>
+        <circle class="a" cx="1.5" cy="1.5" r="1.5" transform="rotate(90 -42 131)"/>
+        <g class="b" transform="translate(26 227.4)">
+            <circle class="e" cx="1" cy="1" r="1"/>
+            <circle class="f" cx="1" cy="1" r=".5"/>
+        </g>
+        <g class="b" transform="translate(57 170)">
+            <circle class="e" cx="1" cy="1" r="1"/>
+            <circle class="f" cx="1" cy="1" r=".5"/>
+        </g>
+        <path class="c" d="M30 228.5h4.5M37.913 228.5h4.5M45.827 228.5h4.5M53.74 228.5h4.5M61.654 228.5h4.5"/>
+        <path class="d" d="M59.077 189.423v4.5"/>
+        <path class="c" d="M59.077 197.337v4.5M59.077 205.25v4.5M59.077 213.163v4.5M59.077 221.077v4.5"/>
+        <g>
+            <path class="c" d="M59.077 173.5v4.5M59.077 181.414v4.5"/>
+        </g>
+        <g>
+            <path class="c" d="M59.077 231.5v4.5M59.077 239.414v4.5"/>
+        </g>
+        <g>
+            <path class="d" d="M45.019 194.1l-2.11 3.973"/>
+            <path class="c" d="M41.307 201.088l-2.11 3.973M37.596 208.075l-2.11 3.973M33.885 215.062l-2.111 3.974M30.173 222.05l-2.11 3.974"/>
+            <g>
+                <path class="c" d="M52.486 180.04l-2.11 3.973M48.775 187.028L46.665 191M56.279 172.9l-2.11 3.973"/>
+            </g>
+        </g>
+        <g>
+            <g class="b" transform="translate(128 227.4)">
+                <circle class="e" cx="1" cy="1" r="1"/>
+                <circle class="f" cx="1" cy="1" r=".5"/>
+            </g>
+            <g class="b" transform="translate(159 170)">
+                <circle class="e" cx="1" cy="1" r="1"/>
+                <circle class="f" cx="1" cy="1" r=".5"/>
+            </g>
+            <path class="c" d="M132 228.5h4.5M139.913 228.5h4.5M147.827 228.5h4.5M155.74 228.5h4.5M163.654 228.5h4.5"/>
+            <path class="d" d="M161.077 189.423v4.5"/>
+            <path class="c" d="M161.077 197.337v4.5M161.077 205.25v4.5M161.077 213.163v4.5M161.077 221.077v4.5"/>
+            <g>
+                <path class="c" d="M161.077 173.5v4.5M161.077 181.414v4.5"/>
+            </g>
+            <g>
+                <path class="c" d="M161.077 231.5v4.5M161.077 239.414v4.5"/>
+            </g>
+            <g>
+                <path class="d" d="M147.019 194.1l-2.11 3.973"/>
+                <path class="c" d="M143.307 201.088l-2.11 3.973M139.596 208.075l-2.11 3.973M135.885 215.062l-2.111 3.974M132.173 222.05l-2.11 3.974"/>
+                <g>
+                    <path class="c" d="M154.486 180.04l-2.11 3.973M150.775 187.028l-2.11 3.973M158.279 172.9l-2.11 3.973"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

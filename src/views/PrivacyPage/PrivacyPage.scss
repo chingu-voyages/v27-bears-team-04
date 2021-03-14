@@ -1,0 +1,13 @@
+.privacy {
+    font-family: $font-family-primary;
+    margin: 1rem;
+}
+
+a {
+    color: $grey;
+    font-weight: bold;
+}
+
+li::marker {
+    color: transparent;
+}

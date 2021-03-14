@@ -1,0 +1,28 @@
+.c-homepage {
+  &__title {
+    font-family: $font-url--title;
+    font-size: 7rem;
+    color: $gold;
+    margin: .5rem 0;
+    @include mq(med) {
+      font-size: 10rem;
+    }
+  }
+  &__subtitle {
+    font-family: $font-family--light;
+    font-size: 1rem;
+    color: $grey;
+    font-weight: 500;
+  }
+  &__morse {
+    color: $grey;
+    font-size: 1.5rem;
+  }
+  &__img-container {
+    width: 270px;
+    margin: 3rem auto;
+    @include mq(med) {
+      width:  370px;
+    }
+  }
+}
