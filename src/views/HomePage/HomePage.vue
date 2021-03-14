@@ -31,11 +31,6 @@
         <img class="c-homepage__img-container__img" v-bind:src="img" alt="" />
       </div>
 </div>
-  <!-- 
- <div class="c-footer">
-    <router-link to="/privacy">Privacy</router-link>
-    <router-link to="/terms">Terms</router-link>
-  </div> -->
 </template> 
 
 <script>
