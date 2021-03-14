@@ -1,35 +1,48 @@
 <template>
   <div class="container">
-    <h1>Sign up</h1>
-    <form>
-      <div class="row">
-        <div class="six columns">
-          <label for="username">Username</label>
-          <input class="u-full-width"
-                 type="text"
-                 id="username"
-                 v-model="username"
+    <h1 class="my-5">Sign up</h1>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="mb-3">
+                <label for="username" class="form-label">Username</label>
+                <input class="form-control"
+                       type="text"
+                       id="username"
+                       v-model="username"
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input class="form-control"
+                       type="password"
+                       id="password"
+                       v-model="password"
+                />
+              </div>
+            </div>
+          </div>
+          <label for="email" class="form-label">Email</label>
+          <input class="form-control"
+                 type="email"
+                 id="email"
+                 v-model="email"
           />
-        </div>
-        <div class="six columns">
-          <label for="password">password</label>
-          <input class="u-full-width"
-                 type="password"
-                 id="password"
-                 v-model="password"
-          />
-        </div>
+          <div class="form-check mt-3 mb-5">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              I have read and accept <router-link to="/terms">term of condition</router-link>.
+            </label>
+          </div>
+          <button class="btn btn--primary d-grid mx-auto d-md-inline" type="submit">Submit</button>
+        </form>
       </div>
-      <label for="email">email</label>
-      <input class="u-full-width"
-             type="email"
-             id="email"
-             v-model="email"
-      />
-      <input type="checkbox" />
-      <span class="label-body">I have read and accept term of condition</span>
-      <button class="button-primary" type="submit">Submit</button>
-    </form>
+    </div><!-- /row -->
+
   </div>
 </template>
 

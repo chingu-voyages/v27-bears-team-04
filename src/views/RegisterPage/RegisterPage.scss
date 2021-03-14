@@ -1,1 +1,7 @@
-@import '../../scss/utilities/index';
+h1 {
+  font-family: $font-family-primary;
+  font-size: 2.5rem;
+  @include mq(med){
+    font-size: 4rem;
+  }
+}

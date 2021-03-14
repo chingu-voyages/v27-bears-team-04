@@ -1,15 +1,37 @@
-
-
-
 <template>
-  <div id="nav">
-    <router-link to="/"></router-link> |
-  </div>
   <router-view/>
+  <teleport to="body">
+    <app-footer></app-footer>
+  </teleport>
 </template>
 
-<style lang="scss" scoped>
- html {
-   background-color: #F5F5F5;
- }
+
+<script>
+import AppFooter from "./components/AppFooter";
+export default {
+  name: "App",
+  components: {
+    AppFooter
+  }
+}
+</script>
+
+<style lang="scss">
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+html, body, #app {
+  height: 100%;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: $black;
+  color: $white;
+  position: relative;
+}
+
 </style>

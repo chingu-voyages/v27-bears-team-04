@@ -1,39 +1,7 @@
-@import '../../scss/utilities/index';
-
-
-.login-container {
-    text-align: center;
-}
-
-.login-title{
-    font-family: $font-url--title;
+h1 {
+  font-family: $font-family-primary;
+  font-size: 2.5rem;
+  @include mq(med){
     font-size: 4rem;
-    color: $dark-grey;
+  }
 }
-
-.c-login-buttons{
-    display: flex;
-    flex-direction: column;
-    font-family: $font-family-primary;
-
-    &__item {
-        width: 19rem;
-        height: 2rem;
-        margin: 0 auto;
-        border-radius: 1.2rem;
-        margin-bottom: 0.8rem;
-        text-align: center;
-        border: 1px solid gray;
-    }
-
-    &__submit {
-        width: 19rem;
-        height: 2.5rem;
-        margin: 0 auto;
-        border-radius: 1.2rem;
-        margin-bottom: 0.8rem;
-        background-color: $contrast-color;
-        border: none;
-    }
-}
-

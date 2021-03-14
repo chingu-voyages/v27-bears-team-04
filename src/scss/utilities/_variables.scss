@@ -3,14 +3,11 @@
 // ==========================================================================
 
 // Font Stacks
-
-
-$font-url--title         :  'euphorigenic';
+$font-url--title         : 'euphorigenic';
 $font-family-primary     : 'montserrat-regular';
 $font-family--secondary  : 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $font-family--bold       : 'montserrat-bold';
 $font-family--light      : 'montserrat-light';
-
 
 @font-face{
   font-family: euphorigenic;
@@ -20,62 +17,36 @@ $font-family--light      : 'montserrat-light';
   local('Euphorigenic-Regular'),
   url(http://allfont.net/cache/fonts/euphorigenic_ce57d3e1b3b16f52112a8b54d6357087.woff) format('woff'),url(http://allfont.net/cache/fonts/euphorigenic_ce57d3e1b3b16f52112a8b54d6357087.ttf) format('truetype')}
 
-  @font-face{
-    font-family: montserrat-regular;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    font-weight:400;
-    src: url('../../assets/fonts/Montserrat-Regular.ttf');
-  }
-
-  @font-face{
-    font-family: montserrat-light;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    font-weight: 300;
-    src: url('../../assets/fonts/Montserrat-Light.ttf');
-  }
-
-  @font-face{
-    font-family: montserrat-bold;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    font-weight: 800;
-    src: url('../../assets/fonts/Montserrat-Bold.ttf');
-  }
 
 // Font Weights
-$font-weight--thin       : 100;
 $font-weight--light      : 300;
 $font-weight--medium     : 400;
 $font-weight--bold       : 700;
-$font-weight--ultra-bold : 900;
 
 // Descriptive Base Colors
-$white : #fff;
-$black : #0b0b0b;
-$grey  : rgb(134, 133, 133);
-$dark-grey: #151515;
+$white     : #fff;
+$black     : #0b0b0b;
+$gold      : #C6A15B;
+$grey      : #8B8B8B;
+$dark-grey : #151515;
 $light-grey: #F5F5F5;
-$contrast-color: #5cf0b8;
+$cardinal  : #C4183C;
+$selective-yellow: #ffb400;
 
 // color Usage
-$color-primary    : $grey ;
-$color-secondary  : $dark-grey;
+$color-primary    : $gold ;
+$color-secondary  : $grey ;
 $color-shadow      : rgba($black, .2);
 
 // Color Palette Modifiers
 $palettes: (
-  grey: (
-    xx-light : lighten($grey, 43%),
-    x-light  : lighten($grey, 35%),
-    light    : lighten($grey, 12%),
-    base     : $grey,
-    dark     : darken($grey, 8%),
-    x-dark   : darken($grey, 16%)
+  gold: (
+    xx-light : lighten($gold, 43%),
+    x-light  : lighten($gold, 35%),
+    light    : lighten($gold, 10%),
+    base     : $gold,
+    dark     : darken($gold, 8%),
+    x-dark   : darken($gold, 16%)
   ),
 	black: (
 		light    : lighten($black, 10%),
@@ -84,17 +55,14 @@ $palettes: (
 	)
 );
 
-
 // UI Colors
 $ui-colors: (
   default : $grey,
   success : $light-grey,
-  error   : red,
-  warning :  $contrast-color,
-  info    : $contrast-color,
+  error   : $cardinal,
+  warning :  $selective-yellow,
+  info    : $selective-yellow,
 );
-
-
 
 // Text
 $base__font-size  : 16px;
