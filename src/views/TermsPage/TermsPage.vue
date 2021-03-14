@@ -1,13 +1,9 @@
 <template>
   <div class="terms">
-
     <h1>Terms and Conditions</h1><br>
-
-<strong>Welcome to imorse!</strong><br>
-
-These terms and conditions outline the rules and regulations for the use of iMorse SA's Website, located at imorse.com.
-
-By accessing this website we assume you accept these terms and conditions. Do not continue to use imorse if you do not agree to take all of the terms and conditions stated on this page.
+<strong>Welcome to iMorse!</strong><br>
+These terms and conditions outline the rules and regulations for the use of iMorse SA's Website, located at iMorse.com.
+By accessing this website we assume you accept these terms and conditions. Do not continue to use iMorse if you do not agree to take all of the terms and conditions stated on this page.
 
 The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: "Client", "You" and "Your" refers to you, the person log on this website and compliant to the Company’s terms and conditions. "The Company", "Ourselves", "We", "Our" and "Us", refers to our Company. "Party", "Parties", or "Us", refers to both the Client and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client’s needs in respect of provision of the Company’s stated services, in accordance with and subject to, prevailing law of Netherlands. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to same.
 
@@ -21,10 +17,10 @@ Unless otherwise stated, iMorse SA and/or its licensors own the intellectual pro
 
 You must not:
 
-Republish material from imorse
-Sell, rent or sub-license material from imorse
-Reproduce, duplicate or copy material from imorse
-Redistribute content from imorse
+Republish material from iMorse
+Sell, rent or sub-license material from iMorse
+Reproduce, duplicate or copy material from iMorse
+Redistribute content from iMorse
 This Agreement shall begin on the date hereof. Our Terms and Conditions were created with the help of the Terms And Conditions Generator and the Privacy Policy Generator.
 
 Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas of the website. iMorse SA does not filter, edit, publish or review Comments prior to their presence on the website. Comments do not reflect the views and opinions of iMorse SA,its agents and/or affiliates. Comments reflect the views and opinions of the person who post their views and opinions. To the extent permitted by applicable laws, iMorse SA shall not be liable for the Comments or for any liability, damages or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website.
