@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container overflow-hidden">
     <h1 class="my-5">Sign up</h1>
     <div class="row justify-content-center">
       <div class="col-md-6">
